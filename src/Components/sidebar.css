@@ -1,0 +1,99 @@
+/* Sidebar.css */
+
+.sidebar {
+  width: 350px;
+  height: 100%;
+  background-color: #000000; /* Black background */
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+  /* padding-top: 55px; */
+  overflow-y: auto;
+  border-right: 1px solid #333; /* Darker divider */
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .link {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #fff; /* White text */
+    transition: background-color 0.3s ease;
+  }
+
+  .link:hover,
+  .link.active {
+    background-color: #1da1f2; /* Twitter blue on hover/active */
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+ul {
+  height: 60%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.post_button {
+  padding: 14px 120px;
+  border-radius: 16px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  color: white;
+  background-color: #1d9bf0;
+  cursor: pointer;
+}
+.modal {
+  z-index: 1050; /* Increase the z-index */
+  background-color: rgba(97, 145, 204, 0.7);
+}
+
+.modal-body input {
+  width: 80%;
+  padding: 2px;
+}
+
+.modal-body {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.profile img {
+  height: 80px;
+}
+.profile {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo img {
+  height: 70px;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}

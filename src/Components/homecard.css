@@ -1,0 +1,31 @@
+.home_card_header {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  gap: 15px;
+}
+.home_card_header img {
+  height: 60px;
+}
+
+.home_card {
+  /* width: 80%; */
+  padding: 20px 40px;
+  border: 1px solid #333; /* Darker divider */
+}
+
+.home_card_body {
+  margin-top: 20px;
+}
+
+.home_card_footer {
+  cursor: pointer;
+}
+
+.home_card_body {
+  width: 600px;
+}
+
+.home_card_body img {
+  width: 500px;
+}

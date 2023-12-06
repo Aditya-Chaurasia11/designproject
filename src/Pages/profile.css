@@ -1,0 +1,31 @@
+.profile_container_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px 5px;
+  border: 1px solid #16181c;
+}
+.profile_container_header img {
+  height: 110px;
+}
+
+.profile_container {
+  min-height: 100vh;
+  background-color: black;
+  margin-left: 350px;
+  color: white;
+  /* width: 40%; */
+  display: flex;
+  /* align-items: center;  */
+  justify-content: space-around;
+}
+
+.profile_name {
+  font-size: 30px;
+  color: white;
+}
+
+.profile_container_left {
+  width: 150%;
+  border: 1px solid #16181c;
+}

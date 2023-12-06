@@ -1,0 +1,112 @@
+.home {
+  margin-left: 350px;
+  border: 1px solid #16181c;
+  /* width: ; */
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.home_nav_div_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid #16181c;
+}
+
+.home_nav_div_container p {
+  font-size: 20px;
+  color: white;
+  padding: 4px;
+
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 3px solid #1d9bf0;
+}
+
+.home_container{
+  width: 120%;
+}
+
+.home_container_right {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.home_container_right input {
+  outline: none;
+  border: none;
+  width: 80%;
+  padding: 10px;
+  border-radius: 16px;
+  background-color: #202327;
+  color: white;
+  font-size: 16px;
+}
+
+.subscribe {
+  padding: 15px 30px;
+  background-color: #202327;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+
+.subscribe_button {
+  padding: 8px 20px;
+  border-radius: 16px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  color: white;
+  background-color: #1d9bf0;
+  cursor: pointer;
+}
+
+.who_to_follow {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.who_to_follow h2 {
+  text-align: center;
+}
+
+.who_to_follow_container {
+  padding: 12px 20px;
+  line-height: 15px;
+  background-color: #202327;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.who_to_follow_container img {
+  height: 70px;
+}
+
+.who_to_follow_container_container button {
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 5px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}

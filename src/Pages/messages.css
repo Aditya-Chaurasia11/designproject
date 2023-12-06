@@ -1,0 +1,82 @@
+.messages_container {
+  margin-left: 350px;
+  background-color: black;
+  margin-top: 0;
+  color: white;
+  height: 100vh;
+  padding-left: 20px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.messages_container span {
+  font-size: 25px;
+}
+
+.messages_container_left {
+  width: 30%;
+  height: 100%;
+  overflow-y: scroll;
+  border: 1px solid #16181c;
+}
+.messages_container_right {
+  width: 50%;
+  height: 100%;
+  border: 1px solid #16181c;
+  overflow-y: scroll;
+}
+
+/* WebKit-based browsers scrollbar styles */
+.messages_container_right::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Track */
+.messages_container_right::-webkit-scrollbar-track {
+  background: #16181c; /* Color of the track */
+}
+
+/* Handle */
+.messages_container_right::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar */
+  border-radius: 10px;
+}
+
+/* WebKit-based browsers scrollbar styles */
+.messages_container_left::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+/* Track */
+.messages_container_left::-webkit-scrollbar-track {
+  background: #16181c; /* Color of the track */
+}
+
+/* Handle */
+.messages_container_left::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar */
+  border-radius: 10px;
+
+}
+
+.messages_container_container {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  height: 90%;
+  justify-content: center;
+  gap: 25px;
+}
+
+.messages_container_left_person {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 5px;
+  border: 1px solid #16181c;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.messages_container_left_person img {
+  height: 60px;
+}

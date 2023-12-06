@@ -1,0 +1,73 @@
+.conversation_container {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.coversation {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  
+}
+.con_name {
+  text-align: center;
+  /* margin-top: 5px; */
+}
+
+.message {
+  /* width: 60%; */
+  margin-top: 20px;
+  max-width: 50%;
+  border-radius: 12px;
+  /* line-height: 3px; */
+  padding: 2px 10px;
+  /* border-radius: 12px; */
+}
+.message.right {
+  align-self: flex-end;
+  align-items: end;
+  background-color: #1d9bf0; /* Example background color for user's messages */
+  /* Add styles for messages sent by the user */
+}
+
+/* Style for messages received (on the left) */
+.message.left {
+  align-self: flex-start;
+  background-color: #16181c;
+}
+
+.conversation_container_time {
+  font-size: 12px;
+}
+
+.conversation_container_data {
+  font-size: 18px;
+}
+
+.conversation_button {
+  margin-top: 22px;
+  gap: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conversation_button input {
+  width: 70%;
+  padding: 5px;
+  outline: none;
+  font-size: 16px;
+  background-color: #16181c;
+color: white;
+  border: none;
+}
+.conversation_button button {
+  padding: 5px;
+  width: 15%;
+  outline: none;
+  border: none;
+  background-color: #1d9bf0; /* Example background color for user's messages */
+  color: white;
+  font-size: 16px;
+cursor: pointer;
+}
